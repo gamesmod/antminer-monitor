@@ -1,16 +1,21 @@
 # app requirements
-Flask==1.1.1
-Flask-Login==0.5.0
-Flask-Migrate==2.5.2
-Flask-WTF==0.14.3
-python-dotenv==0.11.0
-SQLAlchemy==1.3.1
-WTForms==3.0.0
-WTForms-Components==0.10.4
+Flask==2.1.3
+Flask-Login==0.6.2
+Flask-Migrate==3.1.0
+Flask-WTF==1.0.1
+python-dotenv==0.20.0
+SQLAlchemy==1.4.39
+WTForms==3.0.1
+WTForms-Components==0.10.5
 
 # service
 gunicorn
 
 # dev
-isort==4.3.21
-yapf==0.29.0
+isort==5.10.1
+yapf==0.32.0
+
+# additions
+itsdangerous==2.1.2
+Werkzeug
+jinja2==3.1.2
